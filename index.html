@@ -1,12 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
 </head>
+
 <body>
-    <h1>HOLAAAAA</h1>
-    
+
+    <header>
+
+
+        <ul id="navbar">
+           <a href=#acercaDeMi><li>Acerca De Mi</li></a> 
+           <a href=#experiencia><li>Experiencia</li></a> 
+            <a href=#proyectos><li>Proyectos</li></a>
+           <a href=#contacto> <li>Contacto</li> </a>
+        </ul>
+
+
+
+    </header>
+
+    <main>
+
+        <div class="tituloSeccion">
+            <div class="linea"></div>
+            <span>Acerca De Mi</span>
+            <div class="linea"></div>
+        </div>
+
+
+        <div id="acercaDeMi">
+
+
+            <div class="texto">
+                <ul>
+                    <li>Estudiante de 5to semestre de Ingeniería de Software</li>
+                    <li>Actualmente trabajando en el sector tecnológico</li>
+                    <li>Aficionado al Cine, Música y Anime</li>
+                    <li>23 años</li>
+                </ul>
+
+            </div>
+            <div class="imagenes">
+                <img src="./img/programador.jpg" alt="Imagen 1">
+            </div>
+
+
+        </div>
+
+
+
+        <div class="tituloSeccion">
+            <div class="linea"></div>
+            <span>Experiencia</span>
+            <div class="linea"></div>
+        </div>
+
+
+
+
+        <div id="experiencia">
+
+
+            <div class="actual">
+                <h2>Actualmente</h2>
+                <p>Cuento con mas de 3 años de experiencia en el sector de tecnología y he laborado en áreas de devops, soporte al cliente y desarrollo de software.</p>
+            </div>
+            <div class="exps">
+                <ul>
+                    <li>Tecnico En Desarrollo de Software</li>
+                    <li>Tecnico En Soporte</li>
+                    <li>Practicante Devops </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="tituloSeccion">
+            <div class="linea"></div>
+            <span>Proyectos</span>
+            <div class="linea"></div>
+        </div>
+
+
+
+        <div id="proyectos">
+
+
+            <div class="proyecto t1">
+                <img src="./img/taxi.jpg" alt="Proyecto 1">
+                <div class="texto-overlay">App De Taxi</div>
+            </div>
+            <div class="proyecto t2">
+                <img src="./img/component.jpg" alt="Proyecto 2">
+                <div class="texto-overlay">Software Para Hardware</div>
+            </div>
+            <div class="proyecto t3">
+                <a href="https://discord.com/developers/applications/1269071713988247679/information"  target="_blank"> <img src="./img/discord.png" alt="Proyecto 3">
+                <div class="texto-overlay">Discord Bot</div></a>
+            </div>
+            <div class="proyecto t2">
+                 <img src="./img/music.jpg" alt="Proyecto 4">
+                <div class="texto-overlay">Reproductor de Música</div>
+            </div>
+            <div class="proyecto t3">
+                <a href="https://business.whatsapp.com/developers/developer-hub?lang=es_LA" target="_blank"><img src="./img/WhatsApp.png" alt="Proyecto 5">
+                <div class="texto-overlay">WhatsApp Bot</div></a>
+            </div>
+
+            <div class="proyecto t2">
+                <a href="https://github.com/runelite/runelite/wiki/Developer-Guide" target="_blank"><img src="./img/runlite.jpg" alt="Proyecto 7">
+                <div class="texto-overlay">Runelite Plugin</div></a>
+            </div>
+            <div class="proyecto t3">
+                <a href="https://react-test-cqp.pages.dev" target="_blank"><img src="./img/web.png" alt="Proyecto 8">
+                <div class="texto-overlay">Sitio Web</div></a> 
+            </div>
+            <div class="proyecto t1">
+                <img src="./img/list.jpg" alt="Proyecto 6">
+                <div class="texto-overlay">App De Lista</div>
+            </div>
+
+
+        </div>
+        
+
+
+        <div class="tituloSeccion">
+            <div class="linea"></div>
+            <span>Contacto</span>
+            <div class="linea"></div>
+        </div>
+
+
+
+        <div id ="contacto" >
+
+
+            <div class="formulario">
+                <h2>Contáctame</h2>
+                <form action="mailto:correoprofecional@midominio.com" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="nombre" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="correo electrónico" required>
+                    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com" target="_blank"><img src="./img/ig.png" ></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="./img/tw.png" ></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="./img/linkedin.png"></a>
+            </div>
+
+
+        </div>
+
+    </main>
+
 </body>
+
 </html>
